@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/orange</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="DefaultTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="android:background">@drawable/splash</item>-->
+        <item name="colorPrimary">@color/transfer</item>
+        <item name="colorPrimaryDark">@color/transfer</item>
+        <item name="colorAccent">@color/transfer</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <!--  SplashScreen Theme  -->
+    <style name="Theme.CustomSplashScreenTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/DefaultTheme</item>
+    </style>
+</resources>

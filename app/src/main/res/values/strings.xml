@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MovieApp</string>
+    <string name="list_title">List</string>
+    <string name="like_title">Like</string>
+</resources>
