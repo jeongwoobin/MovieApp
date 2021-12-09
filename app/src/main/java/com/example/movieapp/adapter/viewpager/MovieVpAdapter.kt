@@ -23,5 +23,7 @@ class MovieVpAdapter(fm: FragmentManager, lifecycle: Lifecycle) : FragmentStateA
     override fun createFragment(position: Int): Fragment {
         return fragmentsCreators[position]?.invoke() ?: throw IndexOutOfBoundsException()
     }
+    private fun empty() {
 
+    }
 }
